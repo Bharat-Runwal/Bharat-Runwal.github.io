@@ -9,7 +9,7 @@ url: "http://digantamisra98.github.io" # the base hostname & protocol for your s
 twitter_username: DigantaMisra1
 github_username:  digantamisra98
 
-highlighter: pygments
+highlighter: rouge
 
 # Build settings
 markdown: kramdown
