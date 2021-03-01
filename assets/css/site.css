@@ -27,7 +27,9 @@
 }
 
 #imagelist li a { 
-        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         text-decoration: none;
 }
 
@@ -58,7 +60,6 @@
 #imagelist a div {
         padding: 10px;
         width:64%;
-        float:right;
 } 
 
 #attribution a div {
