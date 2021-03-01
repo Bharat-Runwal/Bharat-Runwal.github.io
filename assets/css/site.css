@@ -18,7 +18,7 @@
 #imagelist ul {
         list-style-type: none;
         margin-left: 0;
-        width: 800px;
+        max-width: 800px;
         overflow: auto; /* will contain if #first is longer than #second */
 } 
 
@@ -31,10 +31,7 @@
         justify-content: space-between;
         align-items: center;
         text-decoration: none;
-}
-
- * html #imagelist li a {  /* make hover effect work in IE */
-	width: 800px;
+        padding: 20px 0;
 }
 
 #imagelist li a:hover {
@@ -50,7 +47,6 @@
 
 
 #imagelist a img {
-        padding: 10px;
         width:160px;
 	height:160px;
 	object-fit: contain;
@@ -58,8 +54,8 @@
 }
 
 #imagelist a div {
-        padding: 20px 10px;
-        width:64%;
+        padding-left: 20px;
+        max-width:64%;
 } 
 
 #attribution a div {
